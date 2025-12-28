@@ -2,6 +2,7 @@ import {
   IconDatabase,
   IconReport,
   IconDeviceDesktopCog,
+  IconShieldCheckFilled,
 } from "@tabler/icons-react";
 import { UserRole } from "@dentora/database";
 import type { Icon } from "@tabler/icons-react";
@@ -39,7 +40,7 @@ export const SIDEBAR_CONFIG: Record<UserRole, SideBarConfig> = {
       {
         name: "Control Center",
         url: "/dashboard/cc",
-        icon: IconDeviceDesktopCog,
+        icon: IconShieldCheckFilled,
       },
     ],
   },
